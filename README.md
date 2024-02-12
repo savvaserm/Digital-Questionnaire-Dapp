@@ -5,9 +5,12 @@ Technologies used:
   1. Solidity 0.4.0
   2. PHP
   3. JavaScript
-  4. CSS
-  5. SQL
-  6. Web3.js library
+  4. HTML/CSS
+  5. Remix Ethereum
+  6. Metamask
+  7. Ganache
+  8. SQL/MySQL
+  9. Web3.js library
 
 Used XAMPP as a local tomcat server and MySQL database in order to store the users and admins of the app. When the user enters the app and fills the questionnaire, the app generates a smart contract using solidity and deploys that contract to the ethereum network.
 We can then extract all the info from the smart contract and provide a graph of the analytics from all users.
