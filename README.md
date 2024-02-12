@@ -11,6 +11,8 @@ Technologies used:
   7. Ganache
   8. SQL/MySQL
   9. Web3.js library
+  10. Apache Tomcat
+  11. SQLDeveloper
 
 Used XAMPP as a local tomcat server and MySQL database in order to store the users and admins of the app. When the user enters the app and fills the questionnaire, the app generates a smart contract using solidity and deploys that contract to the ethereum network.
 We can then extract all the info from the smart contract and provide a graph of the analytics from all users.
