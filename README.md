@@ -20,3 +20,20 @@ For interacting with Smart Contracts, Remix IDE was used.
 
 
 ![database](https://github.com/savvaserm/Digital-Questionnaire-Dapp/assets/39909089/aa4b37fc-58a3-4280-98c0-e8f328bf5063)
+
+Login/Register Page:
+![loginpage](https://github.com/savvaserm/Digital-Questionnaire-Dapp/assets/39909089/b4d3cc49-962f-43b3-9726-c6fbcaa5f34c)
+
+Admin can create questions to be filled by users and publish as questionaire:
+![questionspage](https://github.com/savvaserm/Digital-Questionnaire-Dapp/assets/39909089/e9e9b2bf-f92f-4521-92e5-5d66b0adcb33)
+
+Users can enter the page and see the questionaire:
+![questionairepage](https://github.com/savvaserm/Digital-Questionnaire-Dapp/assets/39909089/35bd3847-7ebd-4c35-ad78-3bb23b08ae72)
+
+Users with admin role can create different test for different courses and create questions based on that:
+![testspage](https://github.com/savvaserm/Digital-Questionnaire-Dapp/assets/39909089/c2aa28f6-1a5e-4ec5-b714-51ee71a20584)
+
+When the questionaire is finished, a smart contract is generated and ready to be deplyoed to the Ethereum mainnet:
+![remixcontract](https://github.com/savvaserm/Digital-Questionnaire-Dapp/assets/39909089/884b2862-0995-46e4-98e7-5369d6f489cf)
+
+
