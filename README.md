@@ -1,4 +1,4 @@
-Digital Questionnaire DApp made as part of my thesis. 
+Digital Questionnaire DApp developed as part of my thesis. 
 
 Technologies used: 
 
