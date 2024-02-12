@@ -1,0 +1,71 @@
+pragma solidity ^0.4.0;
+
+contract test7 {
+	uint[][4] public apantiseis;
+	uint public energo=0;
+	uint public n;
+    uint[4] public na=[3,2,3,1];
+    
+constructor() public{
+    uint i;
+    uint j;
+    n=0;
+    for(i=0;i<4;i++)
+    {
+        
+        for (j=0;j<na[i];j++)
+        apantiseis[i].push(0);
+        
+    }
+    
+    
+}
+
+function getap(uint i,uint j) public view returns(uint){
+    if (energo==2)
+            return apantiseis[i][j];
+    else
+        return 0;
+        
+        }
+        
+function getn() public view returns(uint){
+            return n;
+
+        
+        }
+
+function  start() public returns(uint)
+{
+    energo=1;
+    return energo;
+}
+
+function  stop() public returns(uint)
+{
+    energo=2;
+    return energo;
+}
+
+function setapantisi(uint i,uint tp,uint v) public returns(uint){
+            if(energo==1)
+            {
+                if(tp==1)
+                apantiseis[i][v]++;
+                
+                if(tp==2)
+                apantiseis[i][0]+=v;
+                n++;
+                
+            }
+            
+            
+            return 1;
+        
+        }
+
+
+
+        
+    }
+    
